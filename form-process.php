@@ -3,7 +3,7 @@ if (isset($_POST['email'])) {
 
     // REPLACE THIS 2 LINES AS YOU DESIRE
     $email_to = "kenzienew296@gmail.com";
-    $email_subject = "Ceritshop - You have a new customer submission.";
+    $email_subject = "You have a new customer submission.";
 
     function problem($error)
     {
