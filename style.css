@@ -8,7 +8,7 @@ body{
     background: linear-gradient(#ffdad5, #fff7f9);
 }
 .contact-container{
-    height: 100vh;
+    height: 0vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -16,7 +16,7 @@ body{
 .contact-left{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 20px;
 }
 .contact-left-title h2{
