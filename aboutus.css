@@ -1,23 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: fantasy;
 }
 
 .content{
-    font-family: arial;
+    font-family: fantasy;
 }
 .content h1{
     font-size: 70px;
-    margin-left: 950px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: none;
-    font-weight: bold;
 }
 .content p{
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 700px;
-    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .socials{
@@ -25,30 +28,35 @@
 }
 .socials h1{
     font-size: 70px;
-    margin-left: 925px;
-    margin-top: 250px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+
 }
 .socials p{
     font-size: 20px;
     margin-top: 10px;
-    margin-left: 950px;
-    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .banner{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#ffdad5, #fff7f9);
+    background-image: url("https://wallpapercave.com/wp/wp2740690.jpg");
     background-size: cover;
     background-position: center;
 }
 .navbar{
-    width: 85%;
-    margin: auto;
     padding: 35px 0;
+    font-weight: bold;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .logo{
     width: 80px;
@@ -63,14 +71,14 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0%;
-    background: #1a1e1e;
+    background: white;
     position: absolute;
     left: 0;
     bottom: -5px;
