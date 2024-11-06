@@ -13,9 +13,9 @@
 .navbar{
     padding: 35px 0;
     font-weight: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: right;
+    align-items: right;
+    justify-content: right;
 }
 .logo{
     width: 65px;
@@ -93,4 +93,3 @@ button:hover span{
 button:hover{
     border: none;
 }
-
