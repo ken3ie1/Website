@@ -13,9 +13,9 @@
 .navbar{
     padding: 35px 0;
     font-weight: none;
-    display: right;
-    align-items: right;
-    justify-content: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     width: 65px;
@@ -25,7 +25,9 @@
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: center;
 }
 .navbar ul li a{
     text-decoration: none;
