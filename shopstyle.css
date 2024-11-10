@@ -5,8 +5,8 @@
 }
 .socials{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content:space-between;
     transform: translate(-50%);
     color: rgb(23, 20, 20);
 }
@@ -16,10 +16,10 @@
 }
 .products{
     color: white;
-    display: flex;
-    align-items: center;
+    display:inline;
+    align-items:center;
     justify-content: center;
-    font-weight: none   ;
+    font-weight: none;
 }
 .socials p{
     width: 81%;
@@ -84,4 +84,10 @@
     margin-left: 920;
     color: white;
     font-weight: bold;
+}
+@media  screen and (min-width: 321px) and (max-width:960px){
+    xxx
+}
+@media screen and (min-width: 720px) and (max-width:1024px){
+       xxxxx
 }
