@@ -44,6 +44,7 @@
 }
 body{
     font-family: arial;
+    background-color: antiquewhite;
 }
 .contact-container{
     height: 5vh;
@@ -116,7 +117,7 @@ body{
 
 .banner{
     width: 100%;
-    height:8%;
+    height:0vh;
     background-color: rgb(40, 215, 154);
     background-size: cover;
     background-position: left;
