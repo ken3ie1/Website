@@ -30,11 +30,14 @@
 }
 .banner{
     width: 100%;
-    height:8%;
+    height:0vh;
     background-color: rgb(40, 215, 154);
     background-size: cover;
     background-position: left;
     align-items: white;
+}
+body{
+    background-color: antiquewhite;
 }
 .navbar{
     padding: 35px 0;
