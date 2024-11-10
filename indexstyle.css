@@ -5,16 +5,18 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
-    background-image: url("https://wallpapercave.com/wp/wp2740690.jpg");
+    height:8%;
+    background-color: rgb(40, 215, 154);
     background-size: cover;
-    background-position: center;
+    background-position: left;
+    align-items: white;
 }
 .navbar{
     padding: 35px 0;
     font-weight: none;
-    display: flex;
-    align-items: center;
+    display:block;
+    background-position: left;
+    align-items: left;
     justify-content: center;
 }
 .logo{
@@ -25,14 +27,22 @@
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    align-items: center;
-    justify-content: center;
-    display: center;
+    font-size: 20px;
+    position: relative;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform:initial;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform:initial;
 }
 .navbar ul li::after{
     content: '';
@@ -94,4 +104,13 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+        
+    }
 }
