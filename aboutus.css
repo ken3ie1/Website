@@ -22,7 +22,8 @@
     align-items: center;
     justify-content: center;
 }
-
+body{
+    background-color: rgb(40, 215, 154);
 .socials{
     border: 100px;
 }
